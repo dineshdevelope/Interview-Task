@@ -68,7 +68,7 @@ const SingleProduct = () => {
     <div>
       {openModal ? (
         <div>
-          <div className="py-5 max-w-md mx-auto justify-center">
+          <div className="py-5 max-w-md mx-auto justify-center px-3">
             <div>
               <h1 className="text-center  p-2  text-white font-serif  bg-yellow-500 my-2">
                 Update Product
@@ -155,7 +155,7 @@ const SingleProduct = () => {
                     </label>
                   </div>
                 </div>
-                <div className=" flex justify-between">
+                <div className=" flex justify-between space-x-2">
                   <button
                     type="submit"
                     className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "

@@ -32,7 +32,7 @@ const AddProduct = () => {
   };
 
   return (
-    <div className="py-5 max-w-md mx-auto justify-center">
+    <div className="py-5 max-w-md mx-auto justify-center px-2">
       <div>
         <h1 className="text-center  p-2  text-white font-serif  bg-yellow-500 my-2">
           Add Product
