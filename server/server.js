@@ -29,8 +29,8 @@ app.get("/", (req, res) => {
 
 const serverConnect = async () => {
   try {
-    connectDB();
     app.listen(PORT, () => {
+      connectDB();
       console.log(`Server is Rumnning on http://localhost:${PORT}`);
     });
   } catch (error) {
